@@ -198,7 +198,7 @@ public class Araba {
 			}
 			else if (a < 0 && a > 250)
 			{
-				System.out.println("NERE GİDİON AQ");
+				System.out.println("Seçili konuma gidemezsiniz.");
 			}
 		}
 		
@@ -208,7 +208,7 @@ public class Araba {
 			if (benzinMiktari < alacagiyol)
 			{
 				
-				System.out.println("Nereye lan fakir orospu.");
+				System.out.println("Yeterli benzin yok.");
 				
 				
 			}
@@ -230,7 +230,7 @@ public class Araba {
 			if (benzinMiktari < alacagiyol)
 			{
 				
-				System.out.println("Nereye lan fakir orospu.");
+				System.out.println("Yeterli benzin yok!");
 				
 			}
 
@@ -273,20 +273,20 @@ public class Araba {
 			
 			if (hiz > 140)
 			{
-				System.out.println("YAVAŞ AMK");
+				System.out.println("Lütfen yavaşlayın!");
 				mod = 1;
 			}
 			
 			else if (100 < hiz && hiz > 140)
 			{
-				System.out.println("Yavaşla lütfenssss");
+				System.out.println("Hızınızı azaltınız.");
 				
 			}
 			
 			else if (hiz < 100 && hiz > 70)
 			{
 				
-				System.out.println("Aferin süt oğlanı");
+				System.out.println("Bravo.");
 				
 			}
 				
@@ -304,7 +304,7 @@ public class Araba {
 			else 
 			{
 				
-				System.out.println("Rengi silmene izin vermiyorum :@!");
+				System.out.println("Rengi silemezsiniz!");
 				
 			}
 			
